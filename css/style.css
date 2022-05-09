@@ -158,21 +158,17 @@ nav a{
 
 /* footer section one */
 
-footer{
-    
-    padding-top: 10px;
-}
-
-.footer-container{
+.footer-container-one{
     display: flex;
     justify-content: center;
+    padding: 10px 0 40px 0;
     background-color: black;
-    border-bottom: 2px solid white;
+    margin-bottom: 1px;
 }
 
 .footer-section-one{
     width: 70%;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
 }
@@ -196,6 +192,27 @@ footer{
 
 /* footer section two */
 
+.footer-container-two{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: black;
+}
 
+.footer-section-two{
+    width: 70%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
 
+.footer-logo{
+    padding: 5px;
+    background-color: pink;
+}
 
+.footer-button{
+    padding: 5px;
+    background-color: pink;
+}
