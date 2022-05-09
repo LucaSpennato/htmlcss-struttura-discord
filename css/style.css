@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:aqua;
+    padding: 15px;
+}
+
+.head-container{
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+header .logo, header nav, header .login{
+    border: 1px black dashed;
+    display: flex;
+}
+
+
+header .logo, header .login{
+    flex-grow: 1;
+    padding: 10px;
+}
+
+header .login{
+    justify-content: flex-end;
+}
+
+header nav{
+    flex-grow: 2;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+/* header e navigatore */
+
+
+
