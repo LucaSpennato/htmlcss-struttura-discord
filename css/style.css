@@ -156,3 +156,46 @@ nav a{
     background-color: green;
 }
 
+/* footer section one */
+
+footer{
+    
+    padding-top: 10px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+
+.footer-section-one{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content-sx{
+    background-color: coral;
+    flex-grow: 2;
+}
+
+.footer-content-dx{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    flex-grow: 4;
+}
+
+.fc-dx-infos{
+    border: 2px dashed white;
+    flex-basis: 100%;
+}
+
+/* footer section two */
+
+
+
+
